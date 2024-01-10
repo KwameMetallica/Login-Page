@@ -1,1 +1,559 @@
 
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family:  'Inter', sans-serif;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    align-items: center;
+}
+
+.container{
+    width: 1050px;
+    height: 550px;
+    display: flex;
+}
+
+.form-side{
+    width: 45%;
+    height: 100%;
+    padding: 32px;
+}
+
+.logo img{
+    height: 22px;
+    width: 90px;
+    margin-bottom: 15px;
+}
+
+.form{
+    padding-left: 30px;
+}
+
+.sign-in{
+    margin: 10px 0;
+}
+
+.sign-in h2{
+    font-size: 27px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.sign-in span{
+    font-size: 12px;
+    color: #718096;
+    font-weight: 500;
+}
+
+.sign-in span a{
+    color: #1C4532;
+}
+
+.input-box{
+    margin: 10px 0;
+}
+
+.input-box label{
+    font-size: 11px;
+    color: #718096;
+}
+
+.input-box input{
+    margin: 5px 0;
+    width: 100%;
+    font-size: 12px;
+    padding: 12px 10px;
+    border-radius: 5px;
+    border: 1px solid #CBD5E0;
+}
+
+.remember-forgot{
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    
+}
+
+.remember-forgot span{
+    width: 100%;
+    margin: 0 5px;
+}
+
+.remember-forgot a{
+    width: 100%;
+    text-align: right;
+}
+
+.remember-forgot input{
+    height: 11px;
+    width: 11px;
+}
+
+.sign-in button{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    color: #F7FAFC;
+    background-color: #1C4532;
+    border-radius: 6px;
+    font-size: 12px;
+    font-family:  'Inter', sans-serif;
+}
+
+.hr{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hr span{
+    font-size: 8px;
+    margin: 0 20px;
+}
+.hr hr{
+    width: 100%;
+    height: 0.5px;
+}
+
+.options button{
+    width: 100%;
+    border: 1px solid #CBD5E0;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.options img{
+    width: 13px;
+    height: 13px;
+}
+
+.options span{
+    width: 100%;
+    font-size: 12px;
+    font-family:  'Inter', sans-serif;
+    color: #67728A;
+    text-align: center;
+}
+
+
+.text-side{
+    background-color: #1C4532;
+    width: 55%;
+    height: 100%;
+    padding: 32px 8%;
+    position: relative;
+}
+
+.circle{
+    position: absolute;
+    top: -50px;
+    left: 95px;
+}
+
+.support{
+    display: flex;
+    place-content: center;
+    text-align: center; 
+}
+
+.support img{
+    height: 14px;
+    width: 14px;
+    color: #F7FAFC;
+}
+
+.support span{
+    font-size: 11px;
+    margin: 0 10px;
+    color: #F7FAFC;
+}
+
+.learn{
+    height: 244px;
+    background-color: #F7FAFC;
+    margin-top: 40px;
+    border-radius: 15px; 
+    display: flex;
+    position: relative;
+}
+
+.cards {
+    position: absolute;
+    width: 40%;
+    margin-left: 189px;
+}
+
+.card1{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.card1 img{
+    width: 190px;
+    height: 200px;
+}
+
+.card2{
+    position: absolute;
+    margin-left: 46px;
+    margin-top: 50px;
+}
+
+.card2 img{
+    width: 175px;
+    height: 155px;
+}
+
+.card3{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -55px;
+}
+
+.card3 img{
+    width: 200px;
+    height: 300px;
+}
+
+.text{
+    padding: 30px 20px;
+    width: 60%;
+}
+
+.text h2{
+    font-weight: 700;
+    color: #1C4532;
+}
+
+.text p{
+    font-size: 12px;
+    line-height: 24px;
+    margin: 10px 0;
+}
+
+.text button{
+    font-family:  'Inter', sans-serif;
+    font-size: 11px;
+    padding: 10px 40px; 
+    border-radius: 30px;
+    background-color: #1C4532;
+    color: #F7FAFC;
+    border: none;
+}
+
+.earnings{
+    background-color: #F7FAFC;
+    border-radius: 5px;
+    padding: 5px;
+    width: 60%;
+    height: 70px;
+    top: -35px;
+    left: 40%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.earnings .icon img{
+    width: 56px;
+    height: 56px;
+}
+.earnings .text{
+    margin: 0 10px;
+}
+.earnings .text span{
+    font-size: 11px;
+}
+
+.features{
+    width: 100%;
+    text-align: center;
+}
+
+.features h1{
+    color: #F7FAFC;
+    font-size: 30px;
+}
+
+.features p{
+    color: #CFD9E0;
+    font-size: 13px;
+    margin: 10px 30px ;
+}
+
+/*Tablet*/
+@media (max-width: 992px){
+    .container{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .form-side{
+        width: 100%;
+    }
+
+    .logo img{
+        height: 44px;
+        width: 180px;
+    }
+    
+    .form{
+        margin-top: 50px;
+        padding: 0 65px;
+    }
+    
+    .sign-in{
+        margin: 30px 0;
+    }
+    
+    .sign-in h2{
+        font-size: 48px;
+        font-weight: 800;
+        margin-bottom: 35px;
+    }
+    
+    .sign-in span{
+        font-size: 18px;
+        color: #718096;
+        font-weight: 500;
+    }
+    
+    .sign-in span a{
+        color: #1C4532;
+    }
+    
+    .input-box{
+        margin: 40px 0;
+    }
+    
+    .input-box label{
+        font-size: 18px;
+        color: #718096;
+    }
+    
+    .input-box input{
+        margin: 15px 0;
+        width: 100%;
+        font-size: 18px;
+        padding: 20px 15px;
+        border-radius: 5px;
+        border: 1px solid #CBD5E0;
+    }
+    
+    .remember-forgot{
+        font-size: 18px;
+        margin: 5px 0;
+    }
+    
+    .remember-forgot span{
+        width: 100%;
+        margin: 0 5px;
+    }
+    
+    .remember-forgot a{
+        width: 100%;
+        text-align: right;
+    }
+    
+    .remember-forgot input{
+        height: 11px;
+        width: 11px;
+    }
+    
+    .sign-in button{
+        width: 100%;
+        border: none;
+        padding: 20px;
+        color: #F7FAFC;
+        background-color: #1C4532;
+        border-radius: 6px;
+        font-size: 18px;
+        font-family:  'Inter', sans-serif;
+    }
+    
+    .hr{
+        margin: 20px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .hr span{
+        font-size: 16px;
+        margin: 0 20px;
+    }
+    .hr hr{
+        width: 100%;
+        height: 0.5px;
+    }
+    
+    .options button{
+        width: 100%;
+        border: 1px solid #CBD5E0;
+        margin: 20px 0;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        border-radius: 50px;
+    }
+    
+    .options img{
+        width: 18px;
+        height: 18px;
+    }
+    
+    .options span{
+        width: 100%;
+        font-size: 18px;
+        font-family:  'Inter', sans-serif;
+        color: #67728A;
+        text-align: center;
+    }
+    .text-side{
+        display: none;
+    }
+
+}
+
+/*Mobile*/
+@media (max-width: 767px){
+    .form-side{
+        width: 100%;
+    }
+
+    .logo img{
+        height: 28px;
+        width: 117px;
+    }
+    
+    .form{
+        margin-top: 25px;
+        padding: 0 10px;
+    }
+    
+    .sign-in{
+        margin: 15px 0;
+    }
+    
+    .sign-in h2{
+        font-size: 36px;
+        font-weight: 800;
+        margin-bottom: 25px;
+    }
+    
+    .sign-in span{
+        font-size: 16px;
+        color: #718096;
+        font-weight: 500;
+    }
+    
+    .sign-in span a{
+        color: #1C4532;
+    }
+    
+    .input-box{
+        margin: 20px 0;
+    }
+    
+    .input-box label{
+        font-size: 16px;
+        color: #718096;
+    }
+    
+    .input-box input{
+        margin: 10px 0;
+        width: 100%;
+        font-size: 16px;
+        padding: 15px 10px;
+        border-radius: 5px;
+        border: 1px solid #CBD5E0;
+    }
+    
+    .remember-forgot{
+        font-size: 14px;
+        margin: 5px 0;
+    }
+    
+    .remember-forgot span{
+        width: 100%;
+        margin: 0 5px;
+    }
+    
+    .remember-forgot a{
+        width: 100%;
+        text-align: right;
+    }
+    
+    .remember-forgot input{
+        height: 11px;
+        width: 11px;
+    }
+    
+    .sign-in button{
+        width: 100%;
+        border: none;
+        padding: 15px;
+        color: #F7FAFC;
+        background-color: #1C4532;
+        border-radius: 6px;
+        font-size: 16px;
+        font-family:  'Inter', sans-serif;
+    }
+    
+    .hr{
+        margin: 15px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .hr span{
+        font-size: 14px;
+        margin: 0 20px;
+    }
+    .hr hr{
+        width: 100%;
+        height: 0.5px;
+    }
+    
+    .options button{
+        width: 100%;
+        border: 1px solid #CBD5E0;
+        margin: 15px 0;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        border-radius: 50px;
+    }
+    
+    .options img{
+        width: 18px;
+        height: 18px;
+    }
+    
+    .options span{
+        width: 100%;
+        font-size: 16px;
+        font-family:  'Inter', sans-serif;
+        color: #67728A;
+        text-align: center;
+    }
+    .text-side{
+        display: none;
+    }
+
+}
